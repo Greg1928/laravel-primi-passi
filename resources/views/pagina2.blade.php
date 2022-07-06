@@ -41,7 +41,7 @@
         <h1>Welcome on Page 2</h1>
         <nav>
             <ul>
-                <li><a href="/home">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/pagina1">Pagina 1</a></li>
                 <li><a href="/pagina2">Pagina 2</a></li>
                 <li><a href="/pagina3">Pagina 3</a></li>
