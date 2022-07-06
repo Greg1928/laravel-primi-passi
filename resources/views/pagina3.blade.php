@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laravel Primi Passi</title>
+    <title>Pagina 3</title>
 </head>
 <style>
     h1{
         text-align: center;
         font-size: 50px;
-        color: black;
+        color: white;
         text-decoration: underline;
     }
     body{
-        background-color: white;
+        background-color:hotpink;
+        
     }
     nav{
         margin-top: 50px;
@@ -35,16 +36,11 @@
         border-radius: 10px;
         border: 1px black solid;
     }
-    img{
-        height: 700px;
-        width: 100%;
-        margin-top: 40px; 
-    }
 </style>
 <body>
     <header>
-        <h1>Welcome on Home Page</h1>
-        <nav>
+        <h1>Welcome on Page 3</h1>
+        <nav class="white">
             <ul>
                 <li><a href="/home">Home</a></li>
                 <li><a href="/pagina1">Pagina 1</a></li>
@@ -53,8 +49,5 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <img src="{{ asset('Hire_Laravel_Developer-1816537964.jpeg') }}" alt="">
-    </main>
 </body>
 </html>
